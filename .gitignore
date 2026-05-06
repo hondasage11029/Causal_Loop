@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+*.swp
+
+# Claude Code session
+.claude/
+
+# Source tree and metadata kept private — public repo only hosts privacy.html
+CausalLoop/
+docs/
+README.md
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xcscmblueprint
+*.moved-aside
+
+# Swift Package Manager
+.build/
+Package.resolved
+.swiftpm/
+
+# Carthage / CocoaPods (not used here, but safe to ignore if added later)
+Carthage/Build/
+Pods/
+
+# IntelliJ / VS Code (in case anyone opens with those)
+.idea/
+.vscode/
+
+# fastlane (in case used later)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Generated logs
+*.log
