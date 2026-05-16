@@ -5,9 +5,12 @@
 # Claude Code session
 .claude/
 
-# Source tree and metadata kept private — public repo only hosts privacy.html
+# Source tree and metadata kept private — public repo only hosts the two HTML
+# files under docs/ (served by GitHub Pages with /docs as source).
 CausalLoop/
-docs/
+docs/*
+!docs/index.html
+!docs/privacy.html
 README.md
 
 # Xcode
